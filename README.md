@@ -11,7 +11,7 @@
 
  Ссылки
 - GitHub репозиторий: https://github.com/MariaBab715/contest.git
-- GitHub Pages: https://username.github.io/photographer-website
+- GitHub Pages: https://mariabab715.github.io/contest/
 
  Используемые технологии
 - HTML5
