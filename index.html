@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ростислав Всеволодович | Фотограф</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+  
+    
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="#home" class="h4 text-white text-decoration-none d-flex align-items-center">
+                <i class="bi bi-camera me-2"></i> Ростислав Всеволодович | Фотограф
+            </a>
+
+            <!-- Desktop Menu -->
+            <nav class="d-none d-lg-block">
+                <ul class="nav">
+                    <li class="nav-item"><a href="#home" class="nav-link text-white px-3">Главная</a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link text-white px-3">Портфолио</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link text-white px-3">Услуги</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link text-white px-3">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <!-- Mobile Menu Toggle (CSS-only) -->
+            <label for="nav-toggle" class="d-lg-none mb-0">
+                <i class="bi bi-list text-white h2 mb-0"></i>
+            </label>
+        </div>
+
+        <!-- Mobile Menu (hidden by default) -->
+        <input type="checkbox" id="nav-toggle" class="d-none">
+        <nav class="mobile-menu bg-dark">
+            <ul class="list-unstyled py-3 px-4">
+                <li><a href="#home" class="text-white d-block py-2">Главная</a></li>
+                <li><a href="#portfolio" class="text-white d-block py-2">Портфолио</a></li>
+                <li><a href="#services" class="text-white d-block py-2">Услуги</a></li>
+                <li><a href="#contact" class="text-white d-block py-2">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section text-white text-center d-flex align-items-center">
+            <div class="container">
+                <h1 class="display-4 fw-bold">Профессиональная фотосъёмка</h1>
+                <p class="lead my-4">Ловлю моменты, создаю воспоминания</p>
+                <a href="#contact" class="btn btn-light btn-lg px-5">Связаться со мной</a>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center">Мои работы</h2>
+                <div class="row g-4">
+                    <!-- Свадебная съёмка -->
+                    <div class="col-md-6 col-lg-6">
+                        <article class="card">
+                            <img src="images/2.jpg" class="card-img-top" alt="Свадебная съёмка">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Свадебная съёмка</h3>
+                            </div>
+                        </article>
+                    </div>
+        
+                    <!-- Портрет -->
+                    <div class="col-md-6 col-lg-6">
+                        <article class="card">
+                            <img src="images/3.jpg" class="card-img-top" alt="Портрет">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Портрет</h3>
+                            </div>
+                        </article>
+                    </div>
+        
+                    <!-- Пейзаж -->
+                    <div class="col-md-6 col-lg-6">
+                        <article class="card">
+                            <img src="images/4.jpg" class="card-img-top" alt="Пейзаж">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Пейзаж</h3>
+                            </div>
+                        </article>
+                    </div>
+        
+                    <!-- Семейная съёмка -->
+                    <div class="col-md-6 col-lg-6">
+                        <article class="card">
+                            <img src="images/5.jpg" class="card-img-top" alt="Семейная съёмка">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Семейная съёмка</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section id="services" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Услуги и цены</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-body text-center p-4">
+                                <div class="icon mb-3"><i class="bi bi-camera2 text-warning h1"></i></div>
+                                <h4 class="card-title">Свадебная съёмка</h4>
+                                <p class="card-text">Полный день: церемония, банкет, прогулка. Видео- и фотокнига в подарок.</p>
+                                <div class="fw-bold text-primary h5">от 30 000 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-body text-center p-4">
+                                <div class="icon mb-3"><i class="bi bi-person-square text-info h1"></i></div>
+                                <h4 class="card-title">Портретная съёмка</h4>
+                                <p class="card-text">Индивидуальная, парная, деловая фотосессия в студии или на локации.</p>
+                                <div class="fw-bold text-primary h5">от 5 000 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-body text-center p-4">
+                                <div class="icon mb-3"><i class="bi bi-people text-success h1"></i></div>
+                                <h4 class="card-title">Семейная фотосессия</h4>
+                                <p class="card-text">Тёплая съёмка с детьми, в парке, дома или студии. Включает 30
+                                    отретушированных фото.</p>
+                                <div class="fw-bold text-primary h5">от 8 000 ₽</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Связаться со мной</h2>
+                <div class="row g-4">
+                    <!-- Contact Info Card -->
+                    <div class="col-lg-6">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-body p-0">
+                                <div class="p-4 pb-3 border-bottom border-accent">
+                                    <h3 class="h4 fw-normal m-0 text-dark">Контактная информация</h3>
+                                </div>
+                                <div class="p-4">
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="d-flex align-items-start mb-3">
+                                            <i class="bi bi-telephone-fill fs-5 text-accent me-3 mt-1 flex-shrink-0"></i>
+                                            <span><strong>Телефон:</strong><br>+7 (999) 123-45-67</span>
+                                        </li>
+                                        <li class="d-flex align-items-start mb-3">
+                                            <i class="bi bi-envelope-fill fs-5 text-accent me-3 mt-1 flex-shrink-0"></i>
+                                            <span><strong>Email:</strong><br>photo@example.com</span>
+                                        </li>
+                                        <li class="d-flex align-items-start mb-3">
+                                            <i class="bi bi-telegram fs-5 text-accent me-3 mt-1 flex-shrink-0"></i>
+                                            <span><strong>Telegram:</strong><br>
+                                                <a href="https://t.me/photo_rostislav"
+                                                    class="link-accent text-decoration-none">@photo_rostislav</a>
+                                            </span>
+                                        </li>
+                                        <li class="d-flex align-items-start">
+                                            <i class="bi bi-geo-alt-fill fs-5 text-accent me-3 mt-1 flex-shrink-0"></i>
+                                            <span><strong>Адрес:</strong><br>г. Москва, ул. Творческая, д. 10</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="p-4 pt-2 border-top border-light">
+                                    <a href="tel:+79991234567" class="btn btn-outline-accent d-block w-100 mb-2 py-2 px-3">
+                                        <i class="bi bi-telephone me-2"></i>Позвонить
+                                    </a>
+                                    <a href="https://t.me/photo_rostislav"
+                                        class="btn btn-accent d-block w-100 py-2 px-3 text-dark">
+                                        <i class="bi bi-telegram me-2"></i>Написать в Telegram
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Contact Form Card -->
+                    <div class="col-lg-6">
+                        <div class="card h-100 shadow-sm border-0">
+                            <div class="card-body p-0">
+                                <div class="p-4 pb-3 border-bottom border-accent">
+                                    <h3 class="h4 fw-normal m-0 text-dark">Отправить сообщение</h3>
+                                </div>
+                                <div class="p-4 flex-grow-1">
+                                    <form>
+                                        <div class="row g-3 mb-3">
+                                            <div class="col-md-6">
+                                                <label for="name" class="form-label small text-muted">Ваше имя *</label>
+                                                <input type="text" class="form-input" id="name" required>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="email" class="form-label small text-muted">Email *</label>
+                                                <input type="email" class="form-input" id="email" required>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="message" class="form-label small text-muted">Сообщение *</label>
+                                            <textarea class="form-input" id="message" rows="4" required
+                                                style="min-height: 150px;"></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-accent py-2 px-3 text-dark fw-medium w-100">
+                                            <i class="bi bi-send me-1"></i> Отправить
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-2">© 2025 Ростислав Всеволодович. Все права защищены.</p>
+            <div class="mb-3">
+                <a href="#" class="text-white me-3"><i class="bi bi-vk h4"></i></a>
+                <a href="https://t.me/photo_anna" class="text-white me-3"><i class="bi bi-telegram h4"></i></a>
+            </div>
+            <a href="#home" class="btn btn-outline-light btn-sm">Наверх</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
